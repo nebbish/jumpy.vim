@@ -1,3 +1,3 @@
 " Method, class, or module
 "
-call jumpy#map('\v^\s*%(def|class|module)>', '')
+call jumpy#map('\\v^\\s*%(def|class|module)>', '')

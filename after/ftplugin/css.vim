@@ -1,3 +1,3 @@
 " Selector
 "
-call jumpy#map('^[^ \t{}/]', '')
+call jumpy#map('^[^ \\t{}/]', '')

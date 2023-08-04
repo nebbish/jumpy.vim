@@ -1,3 +1,3 @@
 " Function definition
 "
-call jumpy#map('^\s*\%(local\s\+\)\?function\>', '')
+call jumpy#map('^\\s*\\%(local\\s\\+\\)\\?function\\>', '')
