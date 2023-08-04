@@ -11,4 +11,4 @@
 " Seems to work surprisingly well on my C codebases.
 "
 " Alternate idea: /\v^(typedef|enum|struct)@!\w
-call jumpy#map('\\v%(^\\{|^\\s@!.*\\{$)', '\\v^\\s%(if|for|switch|while|do)')
+call jumpy#map('\\v^%(\\{|\\S.*\\{$)', '\\v^\\s*%(if|for|switch|while|do)|^\\s*%(}\\s*)?else')
