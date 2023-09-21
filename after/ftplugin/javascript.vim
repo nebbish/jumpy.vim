@@ -10,4 +10,4 @@
 "
 " No good way around this; function delarations we *do* want to jump to don't
 " need to start at column 0.
-call jumpy#map('\\v^\\s*%(function\\s*\\w|%(var|let) \\w*\\s+\\=\\s+%(function\\(|\\(.{-}\\)\\s*\\=\\>\\s*))', '')
+call jumpy#map('\v^\s*%(function\s*\w|%(var|let) \w*\s+\=\s+%(function\(|\(.{-}\)\s*\=\>\s*))', '')
