@@ -8,4 +8,4 @@
 "" #
 "" #                               | heading  |<- lines b/w heading & code ->| indented code
 "" #                               |          |                              | 
-call jumpy#map('\v%(^#{1,6})', '\v^%(\=|-|#).*%(\n%(  \S.*|    %(let|vs)>.*)?)*\n    \zs\S')
+call jumpy#map('\v%(^#{1,6})', '\v^%(\=|-|#).*%(\n%(  \S.*|     +.*|    %(let|vs)>.*)?)*\n    \zs\S')
